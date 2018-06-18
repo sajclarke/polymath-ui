@@ -25,7 +25,7 @@ export default class Terms extends Component<Props> {
   // noinspection JSMethodCanBeStatic
   showList (items: Array<MenuItem>) {
     return (
-      <ol className='bx--list--ordered pui-list'>
+      <ol className='bx--list--ordered'>
         {items.map((item: MenuItem, index) => (
 
           <li className='bx--list__item' >
@@ -45,7 +45,7 @@ export default class Terms extends Component<Props> {
   // noinspection JSMethodCanBeStatic
   showContent (items: Array<MenuItem>) {
     return (
-      <ol className='bx--list--ordered pui-list'>
+      <ol className='bx--list--ordered'>
         {items.map((item: MenuItem, index) => (
 
           <li className='bx--list__item' >
